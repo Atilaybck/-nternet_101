@@ -1,0 +1,15 @@
+**İnternet Nasıl Çalışır?**
+
+İnternet, dünya çapında bir ağdır. Bu ağ, milyarlarca cihazı (bilgisayarlar, telefonlar, tabletler vb.) birbirine bağlar ve bilgi alışverişi yapmalarını sağlar.
+
+İnternet, verilerin iletilmesini sağlayan bir iletişim protokolü olan TCP/IP (Transmission Control Protocol/Internet Protocol) üzerine kurulmuştur. Bilgisayarlar, bu protokolü kullanarak birbirleriyle iletişim kurarlar.
+
+Bir kullanıcı, bilgisayarında bir web sitesi açmak istediğinde, tarayıcısı (örneğin, Google Chrome veya Mozilla Firefox) o web sitesinin bulunduğu sunucunun IP adresini talep eder. (Bu sunucular genellikle veri merkezlerinde bulunur. Veri merkezleri, büyük ölçüde bilgisayar sunucularını barındıran, güç, soğutma ve ağ bağlantıları gibi altyapı hizmetleri sağlayan tesislerdir.) DNS (Domain Name System), bu IP adresini web sitesinin URL'siyle eşleştirir ve kullanıcıya sunar.
+
+Kullanıcının bilgisayarı, istediği web sitesinin IP adresini aldıktan sonra, isteği sunucuya gönderir. Bu istek, TCP/IP protokolü üzerinden internet üzerinden iletilir.
+
+Sunucu, isteği aldığında, talep edilen web sayfasını kullanıcının bilgisayarına gönderir. Bu işlem, veri paketleri adı verilen küçük parçalar halinde gerçekleşir.
+
+Kullanıcının tarayıcısı, aldığı veri paketlerini birleştirerek web sayfasını oluşturur ve kullanıcıya gösterir.
+
+Bu şekilde, İnternet birçok cihaz arasında bilgi alışverişi yaparak çalışır. Veriler, düğüm noktalarından (örneğin, yönlendiriciler ve sunucular) geçerek hedefe ulaşır ve istenen bilgiyi sağlar.
